@@ -9,11 +9,11 @@ This Hadoop MapReduce program is written in Python 3.7. Since this project is es
 ### 1. MapReduce Job # 1
 - Read in initial page rank matrix file (pr_0.txt) and the post-processed transition matrix file
 - Multiply page rank matrix amd transition matrix on a unit basis
-![mr1](https://github.com/anleihuang/mapreduce_pageRank/blob/master/docs/pr_MR1.png=400x300)
+<img src="https://github.com/anleihuang/mapreduce_pageRank/blob/master/docs/pr_MR1.png"  width="400" height="300">
 
 ### 2. MapReduce Job # 2
 - Sum up the new probability for the to-target website. This output result is the new input for the next iteration
-![mr2](https://github.com/anleihuang/mapreduce_pageRank/blob/master/docs/pr_MR2.png=400x300)
+<img src="https://github.com/anleihuang/mapreduce_pageRank/blob/master/docs/pr_MR2.png"  width="400" height="300">
 
 ## Implementation
 1. Download the git repo
@@ -26,8 +26,7 @@ export HADOOP_HOME=//the path to where your hadoop is
 
 ## Result Snapshot
 The below is a snapshot of the page rank probability for the 5th iteration. The key represents website ID, and the value is the probability.
-
-![result](https://github.com/anleihuang/mapreduce_pageRank/blob/master/docs/result.png=200x200)
+<img src="https://github.com/anleihuang/mapreduce_pageRank/blob/master/docs/result.png"  width="400" height="300">
 
 ## Local Testing
 A few commands are useful for debugging while developing the code
