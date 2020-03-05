@@ -25,8 +25,9 @@ export HADOOP_HOME=//the path to where your hadoop is
 * if you cannot run the run.sh file, make sure the execution permission is set correctly through `chmod +x run.sh`
 
 ## Result Snapshot
-The below is a snapshot of the page rank probability for the 5th iteration. The key represents website ID, and the value is the probability.
-<img src="https://github.com/anleihuang/mapreduce_pageRank/blob/master/docs/result.png"  width="400" height="300">
+The below is a snapshot of the page rank probability for the 5th iteration. The key represents website ID, and the value is the probability
+
+<img src="https://github.com/anleihuang/mapreduce_pageRank/blob/master/docs/result.png"  width="100" height="100">
 
 ## Local Testing
 A few commands are useful for debugging while developing the code
